@@ -12,7 +12,7 @@ $ go install github.com/ryanhatfield/ronbot
 ## Usage
 
 ```shell
-# set token and send quote
+# set token from https://api.slack.com/web and send quote
 $ ronbot -token "xxxx-xxxxxxxxx-xxxx"
 
 # get token from 'SLACK_TOKEN' environment variable and send quote to #general
