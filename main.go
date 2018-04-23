@@ -14,7 +14,7 @@ type quote struct {
 	Quote string
 }
 
-var ronurl = "http://ron-swanson-quotes.herokuapp.com/quotes"
+var ronurl = "http://ron-swanson-quotes.herokuapp.com/v2/quotes"
 var profileurl = flag.String("profile-url", "https://twitter.com/ronswansonsays/profile_image?size=normal", "Ron's profile picture URL. Can be slack emoji example ':ron-swanson:'.")
 var token = flag.String("token", os.Getenv("SLACK_TOKEN"), "Slack API token to use. Defaults to 'SLACK_TOKEN' environment variable.")
 var channel = flag.String("channel", "#random", "Slack channel to post to")
